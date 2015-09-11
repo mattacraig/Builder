@@ -1,0 +1,155 @@
+header {
+  width: 100vw;
+  height: 100vh;
+  background: url('../../../site/images/Noise.png');
+  background-size: cover;
+}
+
+header,
+.header-content {
+  flex-direction: column;
+}
+
+header, 
+header a {
+  color: $white;
+
+}
+
+// Navigation
+
+nav {
+  width: 100vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main-nav {
+  padding-right: 21.0625rem;
+}
+
+.main-nav li {
+  text-align: center;
+}
+
+.main-nav li a {
+  padding: 1rem 0;
+  margin-right: 1.5rem;
+  font: $normal 0.875rem $font-secondary;
+  transition: $link-hover;
+  position: relative;
+}
+
+.main-nav li a:after {
+  content: "";
+  height: 2px;
+  width: 54px;
+  background: $white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: $opacity-hover;
+}
+
+.main-nav li a:hover {
+  color: $white;
+  &:after {
+    opacity: 1;
+  }
+}
+
+
+// End Navigation
+
+
+// Header Content
+
+.header-content {
+  align-items: center;
+}
+
+.header-content h1,
+.header-content p {
+  padding-bottom: 1.625rem;
+
+}
+
+.header-content h1 {
+  padding-top: 9.3125rem;
+  font-size: 3.75rem;
+}
+
+.header-content p {
+  font-size: 1.1875rem;
+}
+
+// End Header Content
+
+
+// Demo
+
+.demo {
+  height: 541px;
+  width: 917px;
+  background: url('../../../site/images/DemoBg.png');
+  margin: auto;
+  margin-top: 57px;
+  flex-direction: column;
+  position: relative;
+}
+
+.edit {
+  width: 100%;
+  height: 106px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2.25rem;
+}
+
+.edit .fa-edit {
+  font-size: 1.5625rem;
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  background-color: $black-trans;
+  text-align: center;
+  line-height: 56px;
+}
+
+.social {
+  height: 9.1875rem;
+  width: 100%;
+  padding: 0 3.8125rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description {
+  flex-direction: column;
+}
+
+.description p,
+.description small {
+  color: $light-grey;
+}
+
+.description p {
+  font-size: 1rem;
+  padding-bottom: 0.4375rem;
+}
+
+.description small {
+  font-size: 0.5625rem;
+}
+
+.likes p {
+  font-size: 1.125rem;
+  font-weight: $bold;
+}
+
+// End Demo

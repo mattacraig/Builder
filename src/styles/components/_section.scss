@@ -1,0 +1,50 @@
+.one {
+  justify-content: center;
+  padding-top: 2.1875rem;
+  flex-direction: column;
+  padding-bottom: 6.4375rem;
+}
+
+.cta-group {
+  text-align: center;
+}
+
+.one .cta-secondary {
+  margin-right: 1.3125rem;
+}
+
+.cta-secondary {
+  background: $bg-primary;
+}
+
+.cta-tertiary {
+  color: #b1bad0;
+  border: 2px solid;
+}
+
+.center-section-content {
+  text-align: center;
+  padding-top: 4.125rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-section-content h2 {
+  font-size: 2.1875rem;
+  padding-bottom: 1.9375rem;
+}
+
+.one .center-section-content h2 {
+  color: #a3adb5;
+}
+
+.center-section-content p {
+  max-width: 58.4375rem;
+  line-height: 2.0625rem;
+}
+
+.one .center-section-content p {
+  font-family: $other-font;
+  color: #b7bfc5;
+  font-size: 1.25rem;
+}

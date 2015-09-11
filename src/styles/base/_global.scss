@@ -1,1 +1,61 @@
 // Global CSS goes here
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $normal;
+  font-family: $font-primary;
+  overflow-x: hidden;
+}
+
+header,
+nav,
+.main-nav,
+.header-content,
+.demo,
+.edit,
+.description,
+.social,
+section,
+.center-section-content,
+footer {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+header, 
+.cta {
+  color: $white;
+}
+
+.cta {
+  font-family: $other-font;
+  font-weight: $bold;
+  text-transform: uppercase;
+  line-height: 3.8125rem;
+  text-align: center;
+  display: inline-block;
+  width: 13.8125rem;
+  height: 3.8125rem;
+  border-radius: 0.3125rem;
+}
+
+.cta-primary {
+  background: $btn-primary-color;
+}
+
+.main-nav li a,
+.header-content p {
+  color: $muted;
+}
+
+header {
+  font-family: $font-primary;
+}

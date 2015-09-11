@@ -2,12 +2,12 @@
 
 // Font Stacks
 $font-primary: 'Sintony', sans-serif;
-$font-secondary: 'Sintony', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
 $other-font: 'Source Code Pro', sans-serif;
 
 // Font Weights
 $normal: 400;
-$bold: 700;
+$bold: 600;
 
 // Colors
 $btn-primary-color: #4cdadd;
@@ -18,4 +18,13 @@ $muted: #e2d9f3;
 $white: #fff;
 $green: #44c5c7;
 $grey: #b7bfc5;
+$light-grey: #f3f3f3;
 $greyer: #abb4bb;
+$black-trans: rgba(0, 0, 0, .7);
+
+//transitions
+
+$link-hover: .3s color;
+$cta-hover: .3s background;
+$border-hover: .3s border;
+$opacity-hover: .3s opacity;
