@@ -247,6 +247,9 @@ nav.nav-reveal {
   font-size: 1.125rem;
   font-weight: 600; }
 
+.likes .fa {
+  color: #fff; }
+
 .one {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -316,4 +319,24 @@ nav.nav-reveal {
   background: #f6f6f4;
   background-image: url('../../../site/images/Phone.png'), url('../../../site/images/shadow-.png');
   background-repeat: no-repeat;
-  background-position: center -200%; }
+  background-position: center -200%;
+  padding-left: 13.125rem;
+  padding-right: 13.125rem; }
+
+.col {
+  padding-top: 6.375rem; }
+
+.col:first-child {
+  padding-right: 6.875rem; }
+
+h2 {
+  font-size: 2.1875rem;
+  padding-bottom: 1.125rem;
+  color: #a3adb5; }
+
+p {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8125rem;
+  padding-bottom: 1.8125rem;
+  color: #abb4bb; }
