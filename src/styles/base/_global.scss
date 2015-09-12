@@ -46,10 +46,16 @@ header,
   width: 13.8125rem;
   height: 3.8125rem;
   border-radius: 0.3125rem;
+  transition: $cta-hover;
 }
 
 .cta-primary {
   background: $btn-primary-color;
+  transition: $cta-hover;
+}
+
+.cta-primary:hover {
+  background: $cta-primary-lighten;
 }
 
 .main-nav li a,

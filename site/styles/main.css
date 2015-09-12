@@ -60,10 +60,17 @@ header, .cta {
   display: inline-block;
   width: 13.8125rem;
   height: 3.8125rem;
-  border-radius: 0.3125rem; }
+  border-radius: 0.3125rem;
+  -webkit-transition: .3s background;
+          transition: .3s background; }
 
 .cta-primary {
-  background: #4cdadd; }
+  background: #4cdadd;
+  -webkit-transition: .3s background;
+          transition: .3s background; }
+
+.cta-primary:hover {
+  background: #47f4f7; }
 
 .main-nav li a, .header-content p {
   color: #e2d9f3; }
@@ -74,8 +81,9 @@ header {
 header {
   width: 100vw;
   height: 100vh;
-  background: url('../../../site/images/Noise.png');
-  background-size: cover; }
+  background: url('../../../site/images/Noise.png'), url('../../../site/images/overlay.png');
+  background-size: cover;
+  background-blend-mode: color; }
 
 header, .header-content {
   -webkit-box-orient: vertical;
@@ -113,13 +121,13 @@ nav {
   color: #e2d9f3; }
 
 .site-wrapper > nav {
-  height: 5vh;
+  height: 7vh;
   position: fixed;
   z-index: 150;
-  background: #9178c1;
-  -webkit-transform: translateY(-5vh);
-      -ms-transform: translateY(-5vh);
-          transform: translateY(-5vh);
+  background: #AF98D7;
+  -webkit-transform: translateY(-7vh);
+      -ms-transform: translateY(-7vh);
+          transform: translateY(-7vh);
   -webkit-transition: .3s -webkit-transform;
           transition: .3s transform; }
 
@@ -168,8 +176,8 @@ nav.nav-reveal {
   font-size: 1.1875rem; }
 
 .demo {
-  height: 541px;
-  width: 917px;
+  height: 33.8125rem;
+  width: 57.3125rem;
   background: url('../../../site/images/DemoBg.png');
   margin: auto;
   margin-top: 57px;
@@ -261,9 +269,18 @@ nav.nav-reveal {
 .cta-secondary {
   background: #9178c1; }
 
+.cta-secondary:hover {
+  background: #AF98D7; }
+
 .cta-tertiary {
   color: #b1bad0;
-  border: 2px solid; }
+  border: 2px solid;
+  -webkit-transition: .3s background, .3s color;
+          transition: .3s background, .3s color; }
+
+.cta-tertiary:hover {
+  background: #b1bad0;
+  color: #fff; }
 
 .center-section-content {
   text-align: center;

@@ -17,9 +17,19 @@
   background: $bg-primary;
 }
 
+.cta-secondary:hover {
+  background: $cta-secondary-lighten;
+}
+
 .cta-tertiary {
-  color: #b1bad0;
+  color: $cta-tertiary;
   border: 2px solid;
+  transition: $cta-hover, $link-hover;
+}
+
+.cta-tertiary:hover {
+  background: $cta-tertiary;
+  color: $white;
 }
 
 .center-section-content {
@@ -35,7 +45,7 @@
 }
 
 .one .center-section-content h2 {
-  color: #a3adb5;
+  color: $primary-headline-color;
 }
 
 .center-section-content p {
@@ -45,6 +55,6 @@
 
 .one .center-section-content p {
   font-family: $other-font;
-  color: #b7bfc5;
+  color: $primary-copy-color;
   font-size: 1.25rem;
 }
