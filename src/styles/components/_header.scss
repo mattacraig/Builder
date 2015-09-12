@@ -25,8 +25,34 @@ nav {
   justify-content: flex-end;
 }
 
-.main-nav {
+.main-nav,
+.hidden-nav {
   padding-right: 21.0625rem;
+}
+
+.main-nav li a,
+.hidden-nav li a {
+  padding: 1rem 0;
+  margin-right: 1.5rem;
+  font: $normal 0.875rem $font-secondary;
+  transition: $link-hover;
+}
+
+.hidden-nav li a {
+  color: $muted;
+}
+
+.site-wrapper>nav {
+  height: 5vh;
+  position: fixed;
+  z-index: 150;
+  background: $bg-primary;
+  transform: translateY(-5vh);
+  transition: $nav-reveal-trans;
+}
+
+nav.nav-reveal {
+  transform: translateY(0);
 }
 
 .main-nav li {
@@ -34,10 +60,10 @@ nav {
 }
 
 .main-nav li a {
-  padding: 1rem 0;
-  margin-right: 1.5rem;
-  font: $normal 0.875rem $font-secondary;
-  transition: $link-hover;
+//  padding: 1rem 0;
+//  margin-right: 1.5rem;
+//  font: $normal 0.875rem $font-secondary;
+//  transition: $link-hover;
   position: relative;
 }
 
@@ -53,7 +79,8 @@ nav {
   transition: $opacity-hover;
 }
 
-.main-nav li a:hover {
+.main-nav li a:hover,
+.hidden-nav li a:hover {
   color: $white;
   &:after {
     opacity: 1;
@@ -153,3 +180,10 @@ nav {
 }
 
 // End Demo
+
+
+// Hidden Navigation
+
+
+
+// End Hidden Navigation
