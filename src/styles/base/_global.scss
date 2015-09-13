@@ -58,6 +58,11 @@ header,
   background: $cta-primary-lighten;
 }
 
+.one .cta-secondary, 
+.three .cta-primary {
+  margin-right: 1.3125rem;
+}
+
 .main-nav li a,
 .header-content p {
   color: $muted;

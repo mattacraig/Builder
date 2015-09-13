@@ -72,6 +72,9 @@ header, .cta {
 .cta-primary:hover {
   background: #47f4f7; }
 
+.one .cta-secondary, .three .cta-primary {
+  margin-right: 1.3125rem; }
+
 .main-nav li a, .header-content p {
   color: #e2d9f3; }
 
@@ -250,7 +253,7 @@ nav.nav-reveal {
 .likes .fa {
   color: #fff; }
 
-.one {
+.one, .three {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -265,9 +268,6 @@ nav.nav-reveal {
 
 .cta-group {
   text-align: center; }
-
-.one .cta-secondary {
-  margin-right: 1.3125rem; }
 
 .cta-secondary {
   background: #9178c1; }
@@ -340,3 +340,24 @@ p {
   line-height: 1.8125rem;
   padding-bottom: 1.8125rem;
   color: #abb4bb; }
+
+.three {
+  color: #fff;
+  background: #9178c1; }
+
+.three h2 {
+  text-transform: uppercase; }
+
+.three h2, .three p {
+  color: #fff; }
+
+.three .cta-tertiary {
+  border: 2px solid #fff;
+  color: #e2d9f3;
+  -webkit-transition: .3s background, .3s color, .3s border;
+          transition: .3s background, .3s color, .3s border; }
+
+.three .cta-tertiary:hover {
+  background: #e2d9f3;
+  color: #fff;
+  border: 2px solid #e2d9f3; }

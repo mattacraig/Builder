@@ -1,0 +1,25 @@
+.three {
+  color: $white;
+  background: $bg-primary;
+}
+
+.three h2 {
+  text-transform: uppercase;
+}
+
+.three h2,
+.three p {
+  color: $white;
+}
+
+.three .cta-tertiary {
+  border: 2px solid $white;
+  color: $muted;
+  transition: $cta-hover, $link-hover, $border-hover;
+}
+
+.three .cta-tertiary:hover {
+  background: $muted;
+  color: $white;
+  border: 2px solid $muted;
+}

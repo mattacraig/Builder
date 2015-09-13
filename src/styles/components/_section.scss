@@ -1,4 +1,5 @@
-.one {
+.one,
+.three {
   justify-content: center;
   padding-top: 2.1875rem;
   flex-direction: column;
@@ -7,10 +8,6 @@
 
 .cta-group {
   text-align: center;
-}
-
-.one .cta-secondary {
-  margin-right: 1.3125rem;
 }
 
 .cta-secondary {
