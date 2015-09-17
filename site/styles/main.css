@@ -319,20 +319,25 @@ nav.nav-reveal {
   background: #f6f6f4;
   background-image: url('../../../site/images/Phone.png'), url('../../../site/images/shadow-.png');
   background-repeat: no-repeat;
-  background-position: center -200%;
+  background-position: center -205%;
   padding-left: 13.125rem;
   padding-right: 13.125rem; }
 
 .col {
-  padding-top: 6.375rem; }
-
-.col:first-child {
-  padding-right: 6.875rem; }
+  padding-top: 6.375rem;
+  padding-left: 6.375rem;
+  width: 50vw;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center; }
 
 h2 {
   font-size: 2.1875rem;
   padding-bottom: 1.125rem;
   color: #a3adb5; }
+
+.two p {
+  max-width: 34.375rem; }
 
 p {
   font-size: 1rem;
