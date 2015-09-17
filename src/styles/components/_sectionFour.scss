@@ -1,0 +1,36 @@
+.four {
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
+  height: 60vh;
+}
+
+.four .col {
+  text-align: center;
+  padding-left: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.four .fa {
+  color: $btn-secondary-color;
+  font-size: 3rem;
+}
+
+.four h2 {
+  padding-top: 4.125rem;
+  padding-bottom: 1.625rem;
+  font-size: 1.875rem;
+}
+
+.four p {
+  max-width: 21.6875rem;
+  font-size: 0.9375rem;
+  font-family: $font-secondary;
+  padding-bottom: 1rem;
+}
+
+.four a {
+  font-size: 0.9375rem;
+  font-family: $font-secondary;
+  color: $cta-secondary-lighten;
+}

@@ -39,7 +39,7 @@ body {
   font-family: 'Sintony', sans-serif;
   overflow-x: hidden; }
 
-.hidden-nav, header, nav, .main-nav, .header-content, .demo, .edit, .description, .social, section, .center-section-content, footer {
+.hidden-nav, header, nav, .main-nav, .header-content, .demo, .edit, .description, .social, section, .center-section-content, .four .col, footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -366,3 +366,41 @@ p {
   background: #e2d9f3;
   color: #fff;
   border: 2px solid #e2d9f3; }
+
+.four {
+  padding-left: 13.5rem;
+  padding-right: 13.5rem;
+  height: 60vh; }
+
+.four .col {
+  text-align: center;
+  padding-left: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.four .fa {
+  color: #b39edc;
+  font-size: 3rem; }
+
+.four h2 {
+  padding-top: 4.125rem;
+  padding-bottom: 1.625rem;
+  font-size: 1.875rem; }
+
+.four p {
+  max-width: 21.6875rem;
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 1rem; }
+
+.four a {
+  font-size: 0.9375rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #AF98D7; }
