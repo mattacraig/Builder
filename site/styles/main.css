@@ -70,7 +70,7 @@ header, .cta {
           transition: .3s background; }
 
 .cta-primary:hover {
-  background: #47f4f7; }
+  background: #6ae0e3; }
 
 .one .cta-secondary, .three .cta-primary {
   margin-right: 1.3125rem; }
@@ -127,7 +127,7 @@ nav {
   height: 7vh;
   position: fixed;
   z-index: 150;
-  background: #AF98D7;
+  background: #a590cc;
   -webkit-transform: translateY(-7vh);
       -ms-transform: translateY(-7vh);
           transform: translateY(-7vh);
@@ -273,7 +273,7 @@ nav.nav-reveal {
   background: #9178c1; }
 
 .cta-secondary:hover {
-  background: #AF98D7; }
+  background: #a590cc; }
 
 .cta-tertiary {
   color: #b1bad0;
@@ -404,7 +404,7 @@ p {
 .four a {
   font-size: 0.9375rem;
   font-family: 'Montserrat', sans-serif;
-  color: #AF98D7; }
+  color: #a590cc; }
 
 .five {
   -webkit-box-orient: vertical;
@@ -525,11 +525,11 @@ p {
   border: none; }
 
 .subscribe-cta {
-  color: #AF98D7;
+  color: #a590cc;
   width: 21.25rem;
   height: 3.8125rem;
   line-height: 3.8125rem;
-  border: 2px solid #AF98D7;
+  border: 2px solid #a590cc;
   text-transform: uppercase;
   font-weight: 600;
   -webkit-transition: .3s color, .3s background;
@@ -537,7 +537,7 @@ p {
   border-radius: 3px; }
 
 .subscribe-cta:hover {
-  background: #AF98D7;
+  background: #a590cc;
   color: #fff; }
 
 .subscribe-cta .fa {
