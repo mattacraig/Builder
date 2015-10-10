@@ -1,0 +1,25 @@
+footer {
+  justify-content: center;
+  height: 50vh;
+}
+
+.sitemap-container {
+  width: 40vw;
+  justify-content: space-between;
+  padding-top: 3.6875rem;
+  font-family: $font-secondary;
+}
+
+.sitemap-list li:first-child {
+  font-size: 1.25rem;
+  padding-bottom: 1.75rem;
+  text-transform: uppercase;
+}
+
+.sitemap-list li {
+  padding-bottom: 1.3rem;
+}
+
+.sitemap-list li a {
+  color: $primary-copy-color;
+}

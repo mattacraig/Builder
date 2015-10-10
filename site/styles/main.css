@@ -39,7 +39,7 @@ body {
   font-family: 'Sintony', sans-serif;
   overflow-x: hidden; }
 
-.hidden-nav, header, nav, .main-nav, .header-content, .demo, .edit, .description, .social, section, .center-section-content, .four .col, .subscription, .subscription-name, .sub-wrapper, footer {
+.hidden-nav, header, nav, .main-nav, .header-content, .demo, .edit, .description, .social, section, .center-section-content, .four .col, .subscription, .subscription-name, .sub-wrapper, footer, .sitemap-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -127,7 +127,7 @@ nav {
   height: 7vh;
   position: fixed;
   z-index: 150;
-  background: #a590cc;
+  background: #9178c1;
   -webkit-transform: translateY(-7vh);
       -ms-transform: translateY(-7vh);
           transform: translateY(-7vh);
@@ -542,3 +542,42 @@ p {
 
 .subscribe-cta .fa {
   padding-left: 0.8125rem; }
+
+.six {
+  background: #9178c1;
+  height: 9.0625rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+footer {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50vh; }
+
+.sitemap-container {
+  width: 40vw;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3.6875rem;
+  font-family: 'Montserrat', sans-serif; }
+
+.sitemap-list li:first-child {
+  font-size: 1.25rem;
+  padding-bottom: 1.75rem;
+  text-transform: uppercase; }
+
+.sitemap-list li {
+  padding-bottom: 1.3rem; }
+
+.sitemap-list li a {
+  color: #b7bfc5; }

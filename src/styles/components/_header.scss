@@ -48,7 +48,7 @@ nav {
   height: 7vh;
   position: fixed;
   z-index: 150;
-  background: $cta-secondary-lighten;
+  background: $bg-primary;
   transform: translateY(-7vh);
   transition: $nav-reveal-trans;
 }
